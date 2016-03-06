@@ -1,4 +1,4 @@
-package com.brainacad.oop.teststring2;
+package com.brainacad.oop.teststring2_9_2;
 
 /**
  * Created by m18 on 02.03.2016.
