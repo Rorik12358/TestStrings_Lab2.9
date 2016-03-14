@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         String[] names = {"VOVA", "Ivan", "R2d2", "ZX", "Anna", "12345", "ToAd", "TomCat", " "};
         for (String name : names) {
-            if (checkPersonWithRegExp(name)) System.out.println(name + " - is a name");
+            if (checkPersonWithRegExp(name)) System.out.println(name + " - is a name"); //not good to write operators in the same line with if
             else System.out.println(name + " - is not a name");
         }
     }
