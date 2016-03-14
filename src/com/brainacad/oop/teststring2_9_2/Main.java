@@ -12,8 +12,8 @@ public class Main {
          in the first word, but absent in the second.
         */
         for (int i = 0; i < myStr1.length(); i++) {
-            if ((myStr2.toLowerCase()).indexOf((myStr1.toLowerCase()).charAt(i)) < 0) {
-                solutiontFor2_9_2.append(myStr1.charAt(i));
+            if ((myStr2.toLowerCase()).indexOf((myStr1.toLowerCase()).charAt(i)) < 0) { //very big memory leaks. Not good readable code.
+                solutiontFor2_9_2.append(myStr1.charAt(i));                             //it's better to use char array it will be faster
             }
         }
         System.out.println(solutiontFor2_9_2);
