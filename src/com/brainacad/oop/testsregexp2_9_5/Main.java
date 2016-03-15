@@ -11,7 +11,7 @@ public class Main {
         String[] names = {"VOVA", "Ivan", "R2d2", "ZX", "Anna", "12345", "ToAd", "TomCat", " "};
         for (String name : names) {
             if (checkPersonWithRegExp(name)) {
-                System.out.println(name + " - is a name"); //not good to write operators in the same line with if
+                System.out.println(name + " - is a name"); //not good to write operators in the same line with if(corrected)
             }
             else {
                 System.out.println(name + " - is not a name");
